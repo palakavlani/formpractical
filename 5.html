@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="font-size: 20px;">
+    <div style="background-color: darksalmon;padding: 5%;">
+    <form>
+        <h1 align="center"> REGISTRATION FORM</h1>
+            <br>
+        <label for="fname"> <b>First name:*</b></label>
+        <input type="text" id="fname" required> <br> <br>
+        <label for="lname"> <b>Last name:*</b></label>
+        <input type="text" id="lname" required> <br> <br>
+        <label for="email"> <b>Email ID:*</b></label>
+        <input type="email" id="email" required> <br> <br>
+        <label for="mob"> <b>Mobile Number:</b></label>
+        <input type="text" id="mob" required> <br> <br>
+        <label for="add"> <b>Address:*</b></label> <br>
+        <textarea id="add" rows="3" cols="50" maxlength="250" required></textarea><br><br>
+        <label for="dob"> <b>Date Of Birth:*</b></label>
+        <input type="date" id="dob" required> <br> <br>
+        <label for="age"> <b>Age:*</b></label>
+        <input type="number" id="age" min="18" max="50"> <br> <br>
+        <label for="gender"> Gender:*</label>
+        <input type="radio" name="gender"> Male 
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other <br> <br>
+        <label for="city"> City:</label>
+        <select>
+            <option>Ahmedabad</option>
+            <option>Baroda</option>
+            <option>Surat</option>
+            <option>Rajkot</option>
+            <option>vapi</option>
+        </select>
+        <label for="pwd"> Password:*</label>
+        <input type="password" id="pwd" required ><br><br>
+        <input style="background-color: cornflowerblue;" type="reset">
+        <input style="background-color: cornflowerblue;" type="submit">
+    </form>
+    </div>
+</body>
+</html>
